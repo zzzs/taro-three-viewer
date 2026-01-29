@@ -35,3 +35,4 @@ pnpm-debug.log*
 
 # Vite
 vite.config.ts.timestamp*
+public

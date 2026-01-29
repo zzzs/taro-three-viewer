@@ -14,17 +14,23 @@ const config = {
   },
   copy: {
     patterns: [
-      { from: 'public/', to: 'dist/' }
+      // { from: 'public/', to: 'dist/' }
     ],
     options: {
     }
   },
   framework: 'react',
-  compiler: 'webpack5',
+  compiler: {
+    type: 'webpack5',
+    prebundle: {
+      enable: false
+    }
+  },
   cache: {
     enable: false
   },
   mini: {
+    enableSourceMap: false,
     postcss: {
       pxtransform: {
         enable: true,

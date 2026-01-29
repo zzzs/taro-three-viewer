@@ -24,7 +24,8 @@
     "@tarojs/taro": "3.6.38",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "three": "^0.160.0"
+    "three": "^0.160.0",
+    "three-platformize": "^1.133.3"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
